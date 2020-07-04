@@ -775,11 +775,11 @@ toolbar, .inline-toolbar {
 .primary-toolbar toolbar, .primary-toolbar .inline-toolbar,
 .primary-toolbar:not(.libreoffice-toolbar) {
   color: #ded6d6;
-  background-color: #2f2f2f;
+  background-color: #000000;
   box-shadow: none;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-image: linear-gradient(to bottom, #2f2f2f, #101010) 1 0 1 0; }
+  border-image: linear-gradient(to bottom, #000000, #101010) 1 0 1 0; }
 
 .inline-toolbar {
   background-color: #303030;
@@ -810,11 +810,11 @@ headerbar,
   border-radius: 0;
   border-color: #252525;
   color: #ded6d6;
-  background-color: #2f2f2f;
+  background-color: #000000;
   box-shadow: inset 0 1px #373737; }
   .csd headerbar, .csd
   .titlebar:not(headerbar) {
-    background-color: #2f2f2f;
+    background-color: #000000;
     border-color: #252525; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
@@ -900,7 +900,7 @@ headerbar,
     border-radius: 0; }
   .maximized headerbar, .maximized
   .titlebar:not(headerbar) {
-    background-color: #2f2f2f;
+    background-color: #000000;
     border-color: #252525; }
   headerbar.default-decoration, .csd headerbar.default-decoration, headerbar.default-decoration:backdrop, .csd headerbar.default-decoration:backdrop,
   .default-decoration.titlebar:not(headerbar), .csd
@@ -909,14 +909,14 @@ headerbar,
   .default-decoration.titlebar:backdrop:not(headerbar) {
     min-height: 28px;
     padding: 0 7px;
-    background-color: #2f2f2f;
+    background-color: #000000;
     border-bottom-width: 0; }
     .maximized headerbar.default-decoration, .maximized .csd headerbar.default-decoration, .maximized headerbar.default-decoration:backdrop, .maximized .csd headerbar.default-decoration:backdrop, .maximized
     .default-decoration.titlebar:not(headerbar), .maximized .csd
     .default-decoration.titlebar:not(headerbar), .maximized
     .default-decoration.titlebar:backdrop:not(headerbar), .maximized .csd
     .default-decoration.titlebar:backdrop:not(headerbar) {
-      background-color: #2f2f2f; }
+      background-color: #000000; }
 
 .titlebar {
   border-radius: 3px 3px 0 0; }
@@ -1410,7 +1410,7 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0px;
-  background-color: #2f2f2f;
+  background-color: #000000;
   color: #ded6d6; }
   menubar:backdrop,
   .menubar:backdrop {
@@ -2428,7 +2428,7 @@ calendar {
 .message-dialog {
   -GtkDialog-button-spacing: 0; }
   .message-dialog .titlebar {
-    background-color: #2f2f2f;
+    background-color: #000000;
     border-bottom: 1px solid #1d1d1d; }
   .message-dialog.csd.background {
     border-bottom-left-radius: 3px;
@@ -2447,10 +2447,10 @@ calendar {
     border-bottom-left-radius: 3px; }
 
 filechooser #pathbarbox {
-  background-color: #2f2f2f;
+  background-color: #000000;
   border-bottom: 1px solid #292929; }
 filechooser .search-bar {
-  background-color: #2f2f2f; }
+  background-color: #000000; }
 filechooser actionbar {
   background-color: #383838; }
 
@@ -2803,7 +2803,7 @@ decoration {
   .solid-csd decoration {
     border-radius: 0;
     margin: 1px;
-    background-color: #2f2f2f;
+    background-color: #000000;
     box-shadow: none; }
 
 headerbar.default-decoration button.titlebutton,
@@ -3769,7 +3769,7 @@ filechooser placessidebar.sidebar list scrollbar, .nemo-window .sidebar scrollba
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #2f2f2f;
+  background-color: #000000;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -3910,7 +3910,7 @@ window.background.lightdm .lightdm-combo {
 @define-color content_view_bg #404040;
 @define-color wm_title #DADADA;
 @define-color wm_unfocused_title alpha(#ded6d6, 0.5);
-@define-color wm_bg #2f2f2f;
+@define-color wm_bg #000000;
 @define-color wm_bg_unfocused #333333;
 @define-color wm_highlight #373737;
 @define-color wm_shadow alpha(black, 0.35);

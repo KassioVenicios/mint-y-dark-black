@@ -201,7 +201,7 @@ StScrollBar {
   color: #f0f0f0;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f;
+  background-color: #000000;
   spacing: 4px;
   padding: 8px; }
 
@@ -292,7 +292,7 @@ StScrollBar {
 
 .popup-menu-boxpointer {
   -arrow-border-radius: 3px;
-  -arrow-background-color: #2f2f2f;
+  -arrow-background-color: #000000;
   -arrow-border-width: 1px;
   -arrow-border-color: #202020;
   -arrow-base: 21px;
@@ -661,7 +661,7 @@ StScrollBar {
 #notification {
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f;
+  background-color: #000000;
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -704,7 +704,7 @@ StScrollBar {
 .switcher-list {
   color: #f0f0f0;
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #000000;
   border-radius: 3px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
@@ -766,7 +766,7 @@ StScrollBar {
   background-color: white; }
 
 .modal-dialog {
-  background-color: #2f2f2f;
+  background-color: #000000;
   border: 1px solid #202020;
   border-radius: 3px;
   padding: 0; }
@@ -777,7 +777,7 @@ StScrollBar {
     margin: 0px;
     padding: 10px;
     border: none;
-    background-color: #2f2f2f; }
+    background-color: #000000; }
     .modal-dialog-button-box .modal-dialog-button {
       padding-top: 0;
       padding-bottom: 0;
@@ -787,7 +787,7 @@ StScrollBar {
   padding: 10px 15px 10px 15px;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: #2f2f2f; }
+  background-color: #000000; }
   .run-dialog > * {
     padding: 0; }
   .run-dialog-label {
@@ -1018,7 +1018,7 @@ StScrollBar {
   color: #f0f0f0;
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f; }
+  background-color: #000000; }
 
 .osd-window {
   text-align: center;
@@ -1026,7 +1026,7 @@ StScrollBar {
   spacing: 1em;
   padding: 20px;
   color: #f0f0f0;
-  background-color: #2f2f2f;
+  background-color: #000000;
   border: 1px solid #202020;
   border-radius: 5px; }
   .osd-window .osd-monitor-label {
@@ -1096,7 +1096,7 @@ StScrollBar {
   spacing: 6px;
   color: #f0f0f0;
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #000000;
   border-radius: 3px;
   padding: 6px 12px 12px 12px;
   font-size: 1em; }
@@ -1157,7 +1157,7 @@ StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: #f0f0f0;
   border: 1px solid #202020;
-  background-color: #2f2f2f;
+  background-color: #000000;
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
@@ -1442,7 +1442,7 @@ StScrollBar {
   .desklet-with-borders {
     border: 1px solid #202020;
     border-radius: 5px;
-    background-color: #2f2f2f;
+    background-color: #000000;
     color: #f0f0f0;
     padding: 12px;
     padding-bottom: 16px; }
@@ -1452,7 +1452,7 @@ StScrollBar {
     border: 1px solid #202020;
     border-top-width: 0;
     border-radius: 0 0 5px 5px;
-    background-color: #2f2f2f;
+    background-color: #000000;
     color: #f0f0f0;
     border-radius: 0;
     border-radius-topleft: 0;
@@ -1476,7 +1476,7 @@ StScrollBar {
 .photoframe-box {
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f;
+  background-color: #000000;
   color: #f0f0f0;
   padding: 12px;
   padding-bottom: 16px; }
