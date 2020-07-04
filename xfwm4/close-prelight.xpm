@@ -2,7 +2,7 @@
 static char * close_prelight_xpm[] = {
 /* columns rows colors chars-per-pixel */
 "24 24 28 1",
-".	c #373737",
+".	c #000000",
 " 	c #000000",
 "@	c #393939",
 "#	c #6B6B6B",

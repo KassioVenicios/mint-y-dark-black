@@ -2,7 +2,7 @@
 static char *shade_inactive[] = {
 /* columns rows colors chars-per-pixel */
 "24 24 7 1",
-". c #373737",
+". c #000000",
 "  c #000000",
 "@ c #4C4C4C",
 "# c #656565",
