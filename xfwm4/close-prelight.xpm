@@ -27,7 +27,7 @@ static char * close_prelight_xpm[] = {
 "_	c #5C5C5C",
 ":	c #6D6D6D",
 "<	c #9C9C9C",
-"[	c #383838",
+"[	c #000000",
 "}	c #545454",
 "|	c #8C8C8C",
 /* pixels */

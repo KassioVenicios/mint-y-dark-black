@@ -39,7 +39,7 @@ static char *stick_toggled_prelight[] = {
 "7 c #9F9F9F",
 "8 c #898989",
 "9 c #6E6E6E",
-"0 c #383838",
+"0 c #000000",
 "a c #282828",
 "b c #696969",
 "c c #888888",

@@ -22,7 +22,7 @@
   -gtk-icon-effect: dim; }
 
 .gtkstyle-fallback {
-  background-color: #383838;
+  background-color: #000000;
   color: #DADADA; }
   .gtkstyle-fallback:hover {
     background-color: #525252;
@@ -732,7 +732,7 @@ combobox arrow {
 toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 4px;
-  background-color: #383838; }
+  background-color: #000000; }
   toolbar separator, .inline-toolbar separator {
     background: none; }
   toolbar.horizontal separator, .horizontal.inline-toolbar separator {
@@ -790,7 +790,7 @@ toolbar, .inline-toolbar {
   border-radius: 0  0 3px 3px; }
 
 searchbar {
-  background-color: #383838;
+  background-color: #000000;
   border-style: solid;
   border-color: #292929;
   border-width: 0 0 1px;
@@ -1393,7 +1393,7 @@ treeview.view {
     treeview.view header button:active:hover {
       color: #DADADA; }
     treeview.view header button:disabled {
-      border-color: #383838;
+      border-color: #000000;
       background-image: none; }
     treeview.view header button:last-child {
       border-right-style: none; }
@@ -1437,7 +1437,7 @@ menu,
   margin: 4px;
   padding: 0;
   border-radius: 0;
-  background-color: #383838;
+  background-color: #000000;
   border: 1px solid #292929; }
   .csd menu, .csd
   .menu {
@@ -1452,7 +1452,7 @@ menu,
   menu .separator:not(label), .csd menu .separator:not(label),
   .menu .separator:not(label), .csd
   .menu .separator:not(label) {
-    color: #383838; }
+    color: #000000; }
   menu menuitem,
   .menu menuitem {
     min-height: 16px;
@@ -1496,7 +1496,7 @@ menu,
     min-width: 16px;
     min-height: 16px;
     padding: 4px;
-    background-color: #383838;
+    background-color: #000000;
     border-radius: 0; }
     menu > arrow.top,
     .menu > arrow.top {
@@ -1525,7 +1525,7 @@ popover.background {
   padding: 2px;
   border-radius: 3px;
   background-clip: border-box;
-  background-color: #383838;
+  background-color: #000000;
   box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.35); }
   .csd popover, popover, .csd
   popover.background,
@@ -1533,7 +1533,7 @@ popover.background {
     border: 1px solid #1c1c1c; }
   popover separator,
   popover.background separator {
-    background-color: #383838; }
+    background-color: #000000; }
   popover > list,
   popover > .view,
   popover > iconview,
@@ -1581,7 +1581,7 @@ notebook {
     background-color: #404040; }
   notebook > header {
     padding: 2px;
-    background-color: #383838;
+    background-color: #000000;
     /* button in headers */ }
     notebook > header.top {
       box-shadow: inset 0 -1px #292929; }
@@ -2452,7 +2452,7 @@ filechooser #pathbarbox {
 filechooser .search-bar {
   background-color: #000000; }
 filechooser actionbar {
-  background-color: #383838; }
+  background-color: #000000; }
 
 filechooserbutton:drop(active) {
   box-shadow: none;
@@ -3266,7 +3266,7 @@ NautilusListView .view, NautilusListView iconview {
 
 .gedit-side-panel-paned statusbar {
   border-top: 1px solid #292929;
-  background-color: #383838; }
+  background-color: #000000; }
 
 .gedit-search-entry-occurrences-tag {
   color: rgba(218, 218, 218, 0.6);
@@ -3335,7 +3335,7 @@ pillbox {
 
 docktabstrip {
   padding: 0 6px;
-  background-color: #383838;
+  background-color: #000000;
   border-bottom: 1px solid #292929; }
   docktabstrip docktab {
     min-height: 28px;
@@ -3357,7 +3357,7 @@ dockpaned {
   border: 1px solid #292929; }
 
 dockoverlayedge {
-  background-color: #383838; }
+  background-color: #000000; }
   dockoverlayedge docktabstrip {
     padding: 0;
     border: none; }
@@ -3703,7 +3703,7 @@ filechooser placessidebar.sidebar list scrollbar, .nemo-window .sidebar scrollba
     background-color: #282828; }
 
 .thunar .sidebar .view, .thunar .sidebar iconview {
-  background-color: #383838; }
+  background-color: #000000; }
   .thunar .sidebar .view:selected, .thunar .sidebar iconview:selected, .thunar .sidebar .view:active, .thunar .sidebar iconview:active {
     background: #8f8f8f;
     color: #ffffff; }
@@ -3737,7 +3737,7 @@ filechooser placessidebar.sidebar list scrollbar, .nemo-window .sidebar scrollba
 
 #content_frame {
   padding-bottom: 14px;
-  background-color: #383838;
+  background-color: #000000;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -3884,13 +3884,13 @@ window.background.lightdm .lightdm-combo {
 
 @define-color theme_fg_color #DADADA;
 @define-color theme_text_color #DADADA;
-@define-color theme_bg_color #383838;
+@define-color theme_bg_color #000000;
 @define-color theme_base_color #404040;
 @define-color theme_selected_bg_color #8f8f8f;
 @define-color theme_selected_fg_color #ffffff;
 @define-color fg_color #DADADA;
 @define-color text_color #DADADA;
-@define-color bg_color #383838;
+@define-color bg_color #000000;
 @define-color base_color #404040;
 @define-color selected_bg_color #8f8f8f;
 @define-color selected_fg_color #ffffff;
@@ -3899,7 +3899,7 @@ window.background.lightdm .lightdm-combo {
 @define-color insensitive_base_color #404040;
 @define-color theme_unfocused_fg_color #DADADA;
 @define-color theme_unfocused_text_color #DADADA;
-@define-color theme_unfocused_bg_color #383838;
+@define-color theme_unfocused_bg_color #000000;
 @define-color theme_unfocused_base_color #404040;
 @define-color borders #292929;
 @define-color unfocused_borders #292929;
