@@ -16,7 +16,7 @@
 
 .background {
   color: #DADADA;
-  background-color: rgba(56, 56, 56, 0.999); }
+  background-color: #000000; }
 
 *:disabled {
   -gtk-icon-effect: dim; }
@@ -745,7 +745,7 @@ toolbar, .inline-toolbar {
     padding: 7px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-    background-color: rgba(53, 53, 53, 0.9); }
+    background-color: #000000; }
     toolbar.osd.left, .osd.left.inline-toolbar, toolbar.osd.right, .osd.right.inline-toolbar, toolbar.osd.top, .osd.top.inline-toolbar, toolbar.osd.bottom, .osd.bottom.inline-toolbar {
       border-radius: 0; }
     toolbar.osd.top, .osd.top.inline-toolbar {
