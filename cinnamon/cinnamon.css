@@ -463,8 +463,8 @@ StScrollBar {
   spacing: 12px; }
 
 .window-caption {
-  background-color: #353535;
-  border: 1px solid #353535;
+  background-color: #000000;
+  border: 1px solid #000000;
   color: #c3c3c3;
   spacing: 8px;
   border-radius: 2px;
@@ -518,7 +518,7 @@ StScrollBar {
     border-radius: 2px; }
 
 .expo-background {
-  background-color: #353535; }
+  background-color: #000000; }
 
 .workspace-thumbnails {
   spacing: 26px; }
@@ -881,7 +881,7 @@ StScrollBar {
     border-width: 0px; }
 
 #keyboard {
-  background-color: #353535;
+  background-color: #000000;
   border-width: 0;
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.4); }
@@ -920,7 +920,7 @@ StScrollBar {
   color: #c3c3c3;
   padding: 5px;
   -arrow-border-radius: 2px;
-  -arrow-background-color: #353535;
+  -arrow-background-color: #000000;
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0.4);
   -arrow-base: 20px;

@@ -105,7 +105,7 @@ popover.background.osd, .csd
 popover.background.magnifier, .osd .scale-popup, .osd {
   color: #dbdbdb;
   border: none;
-  background-color: #353535;
+  background-color: #000000;
   background-clip: padding-box;
   box-shadow: none; }
 
@@ -333,7 +333,7 @@ button {
   button.osd {
     color: #dbdbdb;
     outline-color: rgba(219, 219, 219, 0.3);
-    background-color: #353535;
+    background-color: #000000;
     border-color: #212121; }
     button.osd.image-button, headerbar button.osd.titlebutton,
     .titlebar button.osd.titlebutton {
@@ -1383,7 +1383,7 @@ treeview.view {
     padding: 3px 6px;
     font-weight: bold;
     color: #bbbbbb;
-    background-color: #353535;
+    background-color: #000000;
     background-image: none;
     border-style: none solid solid none;
     border-radius: 0;
@@ -2080,7 +2080,7 @@ scale {
       background-color: #8f8f8f;
       border-color: #8f8f8f; }
     .osd scale slider {
-      background-color: #353535;
+      background-color: #000000;
       border-color: #8f8f8f; }
       .osd scale slider:hover {
         background-color: #8f8f8f; }
@@ -2348,7 +2348,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 .app-notification {
   padding: 10px;
   color: #dbdbdb;
-  background-color: #353535;
+  background-color: #000000;
   background-clip: border-box;
   border-radius: 0 0 2px 2px;
   border-width: 0 1px 1px 1px;
@@ -3045,7 +3045,7 @@ filechooser placessidebar list {
   background-color: transparent; }
 .nautilus-window placessidebar.sidebar list,
 filechooser placessidebar.sidebar list {
-  background-color: #353535; }
+  background-color: #000000; }
   .nautilus-window placessidebar.sidebar list row.sidebar-row,
   filechooser placessidebar.sidebar list row.sidebar-row {
     border: none;
@@ -3107,7 +3107,7 @@ filechooser placessidebar.sidebar list {
     background-color: transparent; }
 .nautilus-window.maximized placessidebar.sidebar,
 filechooser.maximized placessidebar.sidebar {
-  background-color: #353535; }
+  background-color: #000000; }
 
 NautilusQueryEditor .search-bar.toolbar {
   padding: 5px;
@@ -3158,7 +3158,7 @@ NautilusListView .view, NautilusListView iconview {
     border-width: 0; }
   .nemo-window .sidebar {
     color: #dbdbdb;
-    background-color: #353535; }
+    background-color: #000000; }
     .nemo-window .sidebar .frame {
       border: none; }
     .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar row {
@@ -3172,7 +3172,7 @@ NautilusListView .view, NautilusListView iconview {
         .nemo-window .sidebar .view.expander:hover, .nemo-window .sidebar iconview.expander:hover, .nemo-window .sidebar row.expander:hover {
           color: #dbdbdb; }
   .nemo-window grid > paned > separator {
-    background-image: linear-gradient(to bottom, #353535, #353535); }
+    background-image: linear-gradient(to bottom, #000000, #000000); }
   .nemo-window widget .toolbar .image-button, .nemo-window widget .toolbar headerbar button.titlebutton, headerbar .nemo-window widget .toolbar button.titlebutton,
   .nemo-window widget .toolbar .titlebar button.titlebutton,
   .titlebar .nemo-window widget .toolbar button.titlebutton {
@@ -3188,7 +3188,7 @@ NautilusListView .view, NautilusListView iconview {
   .caja-navigation-window .caja-side-pane .view, .caja-navigation-window .caja-side-pane iconview,
   .caja-navigation-window .caja-side-pane textview text,
   .caja-navigation-window .caja-side-pane notebook {
-    background-color: #353535;
+    background-color: #000000;
     color: #dbdbdb; }
 
 .gedit-headerbar-paned {
@@ -3219,7 +3219,7 @@ NautilusListView .view, NautilusListView iconview {
     color: rgba(255, 255, 255, 0.9); }
 
 .gedit-document-panel {
-  background-color: #353535; }
+  background-color: #000000; }
   .gedit-document-panel row {
     color: #dbdbdb;
     background-color: rgba(219, 219, 219, 0); }
@@ -3548,7 +3548,7 @@ SynapseGuiViewVirgilio *:selected {
     -NaTrayApplet-icon-padding: 1px; }
 
 .mintmenu:hover {
-  background-color: #363636; }
+  background-color: #000000; }
 
 .mintmenu:selected {
   color: #ffffff;
@@ -3656,7 +3656,7 @@ SwitchboardCategoryView iconview:selected:focus {
 
 .cs-header {
   padding: 6px;
-  background-color: #353535;
+  background-color: #000000;
   border-bottom: 1px solid #292929; }
 
 .xed-window .xed-panel.side notebook tab.top {
