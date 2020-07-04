@@ -1003,8 +1003,8 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   color: #ded6d6;
   outline-color: rgba(222, 214, 214, 0.3);
   outline-offset: -3px;
-  background-color: rgba(47, 47, 47, 0);
-  border-color: rgba(47, 47, 47, 0); }
+  background-color: #000000;
+  border-color: #000000; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7; }
   .primary-toolbar button:hover, headerbar button:hover {
@@ -1021,8 +1021,8 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     background-clip: padding-box; }
   .primary-toolbar button:disabled, headerbar button:disabled {
     color: rgba(222, 214, 214, 0.55);
-    background-color: rgba(47, 47, 47, 0);
-    border-color: rgba(47, 47, 47, 0); }
+    background-color: #000000;
+    border-color: #000000; }
     .primary-toolbar button:disabled label, headerbar button:disabled label {
       color: inherit; }
   .primary-toolbar button:disabled:active, headerbar button:disabled:active,
@@ -1162,8 +1162,8 @@ headerbar .linked:not(.vertical).path-bar > button {
   .primary-toolbar button.suggested-action.sidebar-button:disabled, headerbar button.suggested-action.sidebar-button:disabled,
   .primary-toolbar button.suggested-action:disabled, headerbar button.suggested-action:disabled {
     color: rgba(222, 214, 214, 0.55);
-    background-color: rgba(47, 47, 47, 0);
-    border-color: rgba(47, 47, 47, 0); }
+    background-color: #000000;
+    border-color: #000000; }
     .primary-toolbar button.suggested-action.flat:disabled label, headerbar button.suggested-action.flat:disabled label,
     .primary-toolbar button.suggested-action.sidebar-button:disabled label, headerbar button.suggested-action.sidebar-button:disabled label,
     .primary-toolbar button.suggested-action:disabled label, headerbar button.suggested-action:disabled label {
@@ -1202,8 +1202,8 @@ headerbar button.suggested-action:backdrop {
   .primary-toolbar button.destructive-action.sidebar-button:disabled, headerbar button.destructive-action.sidebar-button:disabled,
   .primary-toolbar button.destructive-action:disabled, headerbar button.destructive-action:disabled {
     color: rgba(222, 214, 214, 0.55);
-    background-color: rgba(47, 47, 47, 0);
-    border-color: rgba(47, 47, 47, 0); }
+    background-color: #000000;
+    border-color: #000000; }
     .primary-toolbar button.destructive-action.flat:disabled label, headerbar button.destructive-action.flat:disabled label,
     .primary-toolbar button.destructive-action.sidebar-button:disabled label, headerbar button.destructive-action.sidebar-button:disabled label,
     .primary-toolbar button.destructive-action:disabled label, headerbar button.destructive-action:disabled label {
@@ -2819,7 +2819,7 @@ headerbar button.titlebutton,
   border-color: transparent;
   background-color: transparent;
   background-image: none;
-  background-color: rgba(47, 47, 47, 0); }
+  background-color: #000000; }
   headerbar button.titlebutton:hover,
   .titlebar button.titlebutton:hover {
     color: #ded6d6;

@@ -125,9 +125,9 @@ StScrollBar {
 .slider {
   -slider-height: 0.3em;
   -slider-background-color: #202020;
-  -slider-border-color: rgba(47, 47, 47, 0.3);
+  -slider-border-color: #000000;
   -slider-active-background-color: #9d9d9d;
-  -slider-active-border-color: rgba(47, 47, 47, 0.3);
+  -slider-active-border-color: #000000;
   -slider-border-width: 1px;
   -slider-handle-radius: 0.5em;
   height: 1em;
@@ -209,7 +209,7 @@ StScrollBar {
   color: #f0f0f0;
   border: 1px solid #202020;
   border-radius: 3px;
-  background-color: rgba(47, 47, 47, 0.99); }
+  background-color: #000000; }
   .menu.top {
     border-radius: 0 0 3px 3px; }
   .menu.bottom {
@@ -423,7 +423,7 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(47, 47, 47, 0.99);
+  background-color: #000000;
   font-size: 1em;
   padding: 0px; }
 .panel-top {
@@ -1250,7 +1250,7 @@ StScrollBar {
   height: 70px;
   padding: 15px;
   spacing: 0.5em;
-  background: rgba(47, 47, 47, 0.9);
+  background: #000000;
   border-top: 1px solid #202020;
   color: #f0f0f0; }
   .sound-player-overlay StButton {
