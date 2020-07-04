@@ -16,7 +16,7 @@
 <constant name="C_wm_bg_focused" value="#000000" />
 <constant name="C_wm_bg_unfocused" value="#000000" />
 
-<constant name="C_wm_highlight" value="#373737" />
+<constant name="C_wm_highlight" value="#191919" />
 
 <!-- window button colors -->
 

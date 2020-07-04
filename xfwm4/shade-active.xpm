@@ -4,7 +4,7 @@ static char *shade_active[] = {
 "24 24 7 1 ",
 "  c #000000",
 ". c gray19",
-"X c #373737",
+"X c #191919",
 "o c #5F5F5F",
 "O c gray39",
 "+ c #8E8E8E",

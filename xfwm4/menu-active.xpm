@@ -3,7 +3,7 @@ static char *menu_active[] = {
 /* columns rows colors chars-per-pixel */
 "24 24 13 1 ",
 "  c #000000",
-". c #373737",
+". c #191919",
 "X c #3C3C3C",
 "o c #4B4B4B",
 "O c #555555",

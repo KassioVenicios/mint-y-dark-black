@@ -2,7 +2,7 @@
 static char *stick_toggled_prelight[] = {
 /* columns rows colors chars-per-pixel */
 "24 24 49 1",
-". c #373737",
+". c #191919",
 "  c #000000",
 "@ c #313131",
 "# c #000000",

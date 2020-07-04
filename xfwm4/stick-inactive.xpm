@@ -2,7 +2,7 @@
 static char *stick_inactive[] = {
 /* columns rows colors chars-per-pixel */
 "24 24 14 1",
-". c #373737",
+". c #191919",
 "  c #000000",
 "@ c #343434",
 "# c #545454",

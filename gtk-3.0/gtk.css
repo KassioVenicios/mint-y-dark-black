@@ -811,7 +811,7 @@ headerbar,
   border-color: #252525;
   color: #ded6d6;
   background-color: #000000;
-  box-shadow: inset 0 1px #373737; }
+  box-shadow: inset 0 1px #191919; }
   .csd headerbar, .csd
   .titlebar:not(headerbar) {
     background-color: #000000;
@@ -3912,7 +3912,7 @@ window.background.lightdm .lightdm-combo {
 @define-color wm_unfocused_title alpha(#ded6d6, 0.5);
 @define-color wm_bg #000000;
 @define-color wm_bg_unfocused #333333;
-@define-color wm_highlight #373737;
+@define-color wm_highlight #191919;
 @define-color wm_shadow alpha(black, 0.35);
 @define-color wm_button_close_bg #cc575d;
 @define-color wm_button_close_hover_bg #d7787d;

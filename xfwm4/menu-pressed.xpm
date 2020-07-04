@@ -5,7 +5,7 @@ static char *menu_pressed[] = {
 "  c #2A2A2A",
 ". c #000000",
 "X c #000000",
-"o c #373737",
+"o c #191919",
 "O c gray22",
 "+ c gray26",
 "@ c #565656",
